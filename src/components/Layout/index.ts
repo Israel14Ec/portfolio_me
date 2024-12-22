@@ -1,0 +1,5 @@
+export * from "./Header"
+export * from "./Nav"
+export * from "./ContactIcons"
+export * from "./NavMobile"
+export * from "./Footer"
