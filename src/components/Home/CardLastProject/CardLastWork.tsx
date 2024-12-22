@@ -2,14 +2,14 @@ import { CardProject } from "../../Shared";
 
 export function CardLastWork() {
   return (
-    <div className=" bg-neutral-50 shadow-sm w-full p-5 absolute overflow-hidden rounded-lg">
-      <p className=" font-semibolold text-secondary text-lg mb-10 text-center">ÚLTIMOS PROYECTOS</p>
+    <section className="relative bg-neutral-50 w-full overflow-hidden rounded-lg">
+      <h2 className=" font-semibolold text-secondary text-xl mb-10 text-center">ÚLTIMOS PROYECTOS</h2>
 
-      <div className=" mb-16 flex flex-col md:flex-row gap-5 md:gap-16 justify-center items-start ">
+      <div className=" mb-20 flex flex-col md:flex-row gap-5 md:gap-16 justify-center items-start ">
         <CardProject
           img="/xPress.png"
           title="xPress"
-          description="CMMS (Computerized Maintenance Managament System)"
+          description="Sistema de gestión de mantenimiento"
         />
         <CardProject
           img="/TechReserve.png"
@@ -17,13 +17,13 @@ export function CardLastWork() {
           description="Aplicación de reserva de laboratorios"
         />
         <CardProject
-          img="/TechReserve.png"
-          title="MusicEl"
-          description="Reproductor de música"
+          img="/UpTask.png"
+          title="UpTask"
+          description="Gestión de tareas"
         />
       </div>
 
-      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-16 w-32 bg-neutral-100 rounded-t-full  shadow-lg"></div>
-    </div>
+      <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-16 w-32 bg-neutral-100 rounded-t-full shadow-inner"></div>
+    </section>
   );
 }

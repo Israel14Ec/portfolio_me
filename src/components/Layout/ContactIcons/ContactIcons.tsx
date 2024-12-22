@@ -1,4 +1,4 @@
-import {  FaLinkedin, FaWhatsapp } from "react-icons/fa"
+import {  FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa"
 
 export function ContactIcons() {
 
@@ -20,6 +20,12 @@ export function ContactIcons() {
             target="_blank"
         >
             <FaWhatsapp/>
+        </a>
+
+        <a href="https://github.com/Israel14Ec"
+            target="blank"
+        >
+            <FaGithub />
         </a>
     </div>
   )

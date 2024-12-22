@@ -7,9 +7,9 @@ export function Footer() {
   return (
     <footer className=" w-[90%] mx-auto p-5">
         <div className=" flex justify-between text-sm text-tertiary tracking-wide">
-            <p>&copy; {year.getFullYear()} - Israel Tuglema</p>
-            <nav className=" flex gap-5">
-                <Link to={"/"}>
+            <p>&copy; {year.getFullYear()}-IstDev</p>
+            <nav className=" flex flex-col md:flex-row gap-5">
+                <Link to={"/about_me"}>
                     Sobre mi
                 </Link> 
                 <Link to={"/"}>

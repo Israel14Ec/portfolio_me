@@ -16,7 +16,7 @@ export function Nav( { className, setShow } : NavProps) {
       }}
     >
         <LinkNav
-            to="/"
+            to="/about_me"
             title="Sobre mí"
             className="border-b w-full text-center md:border-none md:w-auto md:text-center"
         />
