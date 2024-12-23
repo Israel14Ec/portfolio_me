@@ -12,8 +12,8 @@ export function Footer() {
                 <Link to={"/about_me"}>
                     Sobre mi
                 </Link> 
-                <Link to={"/"}>
-                   Proyectos
+                <Link to={"/portfolio"}>
+                   Portafolio
                 </Link> 
                 <Link to={"/"}>
                     Contacto

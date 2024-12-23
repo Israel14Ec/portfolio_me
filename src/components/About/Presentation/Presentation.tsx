@@ -21,7 +21,7 @@ export function Presentation() {
         </p>
       </div>
 
-      <div className=" w-auto">
+      <div className="w-full md:w-1/3">
         <div className=" w-full flex justify-center items-center">
           <img src="/MeImage.png" alt="Sobre mi" className=" w-44" />
         </div>

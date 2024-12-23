@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { useMemo } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 type LinkNavProps = {
     to: string
@@ -7,8 +8,12 @@ type LinkNavProps = {
 }
 
 export function LinkNav( { to, title, className} : LinkNavProps) {
+
+  const location = useLocation()
+  const isActive = useMemo(() => location.pathname === to, [location])
+  
   return (
-    <Link to={to} className={`text-white hover:text-tertiary text-lg md:text-base ${className ? className : ""}`}>
+    <Link to={to} className={`hover:text-tertiary text-lg md:text-base ${className ? className : ""} ${isActive ? 'text-tertiary': 'text-white' }`}>
         {title}
     </Link>
   )

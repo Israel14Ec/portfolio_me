@@ -21,12 +21,12 @@ export function Nav( { className, setShow } : NavProps) {
             className="border-b w-full text-center md:border-none md:w-auto md:text-center"
         />
         <LinkNav
-            to="/"
-            title="Proyectos"
+            to="/portfolio"
+            title="Portafolio"
             className="border-b w-full text-center md:border-none md:w-auto md:text-center"
         />
         <LinkNav
-            to="/"
+            to="/contact"
             title="Contacto"
         />
     </nav>

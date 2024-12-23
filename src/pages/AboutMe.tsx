@@ -4,7 +4,7 @@ import { SoftSkill } from "../components/About/SoftSkill";
 export default function AboutMe() {
   return (
     <main className="bg-white shadow-lg ">
-      <div className="w-[90%] mx-auto p-5 ">
+      <div className="md:w-[70%] mx-auto px-5 py-16">
         <h1 className="text-primary text-4xl font-extrabold">Sobre mí</h1>
         <Presentation />
 
