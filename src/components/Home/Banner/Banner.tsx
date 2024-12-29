@@ -1,3 +1,4 @@
+import { Fade } from "react-awesome-reveal";
 
 
 export function Banner() {
@@ -11,8 +12,9 @@ export function Banner() {
             <h3 className="text-xl font-extrabold text-secondary text-center"> {`<Desarrollador>`} </h3>
             <p className=" text-tertiary">Desarrollador front-end y back-end en diversas tecnologías</p>
         </div> 
-
-        <img src="/background.png" alt="Imagen del desarollador" className=" w-32"/>
+        <Fade cascade duration={2000}>
+          <img src="/background.png" alt="Imagen del desarollador" className=" w-32"/>
+        </Fade>
     </div>
   )
 }

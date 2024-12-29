@@ -9,9 +9,7 @@ export default function Home() {
         <Banner />
       </main>
 
-      <div className=" bg-neutral-50 pt-16">
-        <CardLastWork />
-      </div>
+      <CardLastWork />
       </>
   );
 }
