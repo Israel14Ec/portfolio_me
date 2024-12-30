@@ -9,7 +9,7 @@ type CardProjectProps = {
 
 export function CardProject({ img, title, description, to}: CardProjectProps) {
   return (
-    <Link className=" bg-white rounded-lg p-4 shadow-md font-thin w-80 md:mx-auto" to={to}>
+    <Link className=" bg-white rounded-lg p-4 shadow-md font-thin w-80 mx-auto md:mx-0" to={to}>
         <div className=" bg-card px-5 pt-5 mb-6">
             <img src={img} alt={`Proyecto ${title}`} className=" h-32 w-full"/>
         </div>
