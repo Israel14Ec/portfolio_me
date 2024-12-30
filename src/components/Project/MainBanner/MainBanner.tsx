@@ -26,8 +26,8 @@ export function MainBanner({
 }: MainBannerprops) {
   return (
     <>
-      <div className=" flex flex-col md:flex-row gap-10 justify-between items-center ">
-        <div className=" w-1/2">
+      <div className=" flex flex-col md:flex-row gap-10 justify-between items-center">
+        <div className="w-full md:w-1/2">
           <Slide direction="right" triggerOnce>
             <h1 className=" text-4xl text-primary font-semibold border-b-2 p-2">
               {title}
@@ -75,7 +75,7 @@ export function MainBanner({
             )}
           </Slide>
         </div>
-        <div className="w-1/2">
+        <div className=" md:w-1/2">
           <Slide direction="left" triggerOnce>
             <img
               src={img}
