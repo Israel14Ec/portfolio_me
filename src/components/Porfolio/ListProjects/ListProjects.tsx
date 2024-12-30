@@ -12,7 +12,6 @@ export function ListProjects() {
             img={ project.img}
             title={project.title}
             description={project.description}
-            technologies={project.technologies}
             to={`/project/${project.id}`}
           />
         ))}
