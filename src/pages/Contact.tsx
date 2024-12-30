@@ -1,3 +1,4 @@
+import { Slide } from "react-awesome-reveal";
 import { ContactIcons } from "../components/Layout";
 
 
@@ -15,9 +16,11 @@ export default function Contact() {
                     <ContactIcons className=" text-secondary"/>
                 </div>
                 <div className=" w-1/2">
-                    <div className=" flex justify-center">
-                        <img src="/logoBlack.png" alt="logo IstDev" className=" w-60 h-60 shadow-lg rounded-full " />
-                    </div>
+                    <Slide direction="right" triggerOnce>
+                        <div className=" flex justify-center">
+                            <img src="/logoBlack.png" alt="logo IstDev" className=" w-60 h-60 shadow-lg rounded-full " />
+                        </div>
+                    </Slide>
                 </div>
             </div>
         </div>

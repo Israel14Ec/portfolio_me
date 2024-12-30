@@ -6,11 +6,11 @@ export default function Portfolio() {
     <>
       <main className=" bg-white p-5 shadow-md">
         <div className=" md:w-[70%] mx-auto px-5 py-16">
-          <div className=" flex gap-10">
-            <div className=" w-2/3">
+          <div className=" flex flex-col md:flex-row gap-10">
+            <div className=" md:w-2/3">
                 <LeftInfo />
             </div>
-            <div className=" w-1/3">
+            <div className=" md:w-1/3">
               <Slide cascade direction="right" triggerOnce>
                 <RightInfo/>
               </Slide>

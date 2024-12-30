@@ -1,4 +1,4 @@
-import { projects } from "../../../Data/db";
+import { projects } from "../../../data/db";
 import { CardProject, ContainerProject } from "../../Shared";
 
 
