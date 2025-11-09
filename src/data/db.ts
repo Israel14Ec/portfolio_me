@@ -142,5 +142,83 @@ export const projects: CardProjectT[] = [
         link: "https://github.com/Israel14Ec/aero_vue.git"
       }
     ]
+  },
+  {
+    id: 7,
+    img: "/Projects/medidor_app.png",
+    title: "MedidorApp",
+    description: "Aplicación móvil para registrar y monitorear las lecturas de medidores de servicios públicos, facilitando el seguimiento del consumo y la gestión eficiente de los datos, en Ecuador. Los datos se guardan localmente en SQLite y se puede sincronizar con un servidor backend.",
+    technologies: [
+      "React-Native",
+      "Nest.js",
+      "Autenticación-JWT",
+      "PostgreSQL",
+      "SQLite",
+      "TypeORM",
+      "Expo",
+      "GitHub",
+    ],
+    gitHubLink: [
+      {
+        title: "FrontEnd - Repositorio privado",
+        link: "https://github.com/PDC2198/AppAgiledeploy.git"
+      },
+      {
+        title: "BackEnd - Repositorio público",
+        link: "https://github.com/Israel14Ec/app_guano_backend.git"
+      },
+      
+    ]
+  },
+  {
+    id: 8,
+    img: "/Projects/appreserv.png",
+    title: "AppReserv",
+    link: "https://drive.google.com/file/d/1fdwCrZY3kqNdu-AeX7R5aidcVxqvp2eT/view",
+    description: "Aplicación web para gestionar reservas de citas médicas, con código QR para facilitirar la creación de citas",
+    technologies: [
+      "Next.js",
+      "Nest.js",
+      "TypeScript",
+      "ShadcnUI",
+      "Zustand",
+      "React-Query",
+      "Autenticación-JWT",
+      "MySQL",
+      "TypeORM",
+      "GitHub",
+      "Mailtrap",
+    ],
+    gitHubLink: [
+      {
+        title: "FrontEnd",
+        link: "https://github.com/Israel14Ec/app_reserv_frontend"
+      },
+      {
+        title: "BackEnd - Repositorio público",
+        link: "https://github.com/Israel14Ec/app_reserv_backend.git"
+      },
+      
+    ]
+  },
+  {
+    id: 9,
+    img: "/Projects/api_ecommerce.png",
+    title: "API Ecommerce",
+    description: "API RESTful para gestionar un sistema de comercio electrónico, incluyendo productos, usuarios, roles y autenticación JWT.",
+    technologies: [
+      "C#",
+      ".NET Core",
+      "WEP APi",
+      "SQL Server",
+      "Swagger",
+      "Azure",
+    ],
+    gitHubLink: [
+      {
+        title: "Backend",
+        link: "https://github.com/Israel14Ec/app_reserv_frontend"
+      },
+    ]
   }
 ];

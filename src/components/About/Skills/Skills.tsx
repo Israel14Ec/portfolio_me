@@ -7,8 +7,6 @@ import {
   FaLaravel,
   FaJs,
   FaPhp,
-  FaPython,
-  FaJava,
 } from "react-icons/fa";
 import {
   SiTailwindcss,
@@ -18,7 +16,11 @@ import {
   SiMysql,
   SiMongodb,
   SiTypescript,
+  SiAngular,
+  SiDotnet,
+  SiDota2,
 } from "react-icons/si";
+
 import { VerticalTextIcon } from "../../Shared";
 
 export function Skills() {
@@ -52,7 +54,7 @@ export function Skills() {
 
           <VerticalTextIcon
             icon={<FaVuejs />}
-            text="Vue.js"
+            text="Vue"
             className=" text-green-500"
           />
 
@@ -64,7 +66,13 @@ export function Skills() {
 
           <VerticalTextIcon
             icon={<SiNextdotjs />}
-            text="Next.js"
+            text="Next"
+            className=" text-gray-800"
+          />
+
+          <VerticalTextIcon
+            icon={<SiAngular />}
+            text="Angular"
             className=" text-gray-800"
           />
         </div>
@@ -82,6 +90,11 @@ export function Skills() {
             icon={<FaLaravel />}
             text="Laravel"
             className=" text-red-600"
+          />
+          <VerticalTextIcon
+            icon={<SiDotnet size={40}/>}
+            text=""
+            className=" text-purple-600"
           />
           <VerticalTextIcon
             icon={<SiPostgresql />}
@@ -124,15 +137,9 @@ export function Skills() {
           />
 
           <VerticalTextIcon
-            icon={<FaPython />}
-            text="Python"
-            className=" text-blue-600"
-          />
-
-          <VerticalTextIcon
-            icon={<FaJava />}
-            text="Java"
-            className=" text-orange-600"
+            icon={<SiDotnet size={30} />}
+            text="c#"
+            className=" text-indigo-600"
           />
         </div>
       </div>
