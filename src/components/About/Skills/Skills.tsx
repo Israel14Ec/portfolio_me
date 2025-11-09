@@ -1,24 +1,23 @@
 import {
-  FaHtml5,
   FaCss3Alt,
+  FaHtml5,
+  FaJs,
+  FaLaravel,
+  FaPhp,
+  FaReact,
   FaSass,
   FaVuejs,
-  FaReact,
-  FaLaravel,
-  FaJs,
-  FaPhp,
 } from "react-icons/fa";
 import {
-  SiTailwindcss,
-  SiNextdotjs,
-  SiExpress,
-  SiPostgresql,
-  SiMysql,
-  SiMongodb,
-  SiTypescript,
   SiAngular,
   SiDotnet,
-  SiDota2,
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiNextdotjs,
+  SiPostgresql,
+  SiTailwindcss,
+  SiTypescript
 } from "react-icons/si";
 
 import { VerticalTextIcon } from "../../Shared";
